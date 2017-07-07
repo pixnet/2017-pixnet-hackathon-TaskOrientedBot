@@ -8,8 +8,7 @@
 
 ## 活動網址
 
-TBD
-
+https://pixnethackathon2017.events.pixnet.net/
 
 ## 比賽辦法
 
