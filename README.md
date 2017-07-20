@@ -14,10 +14,24 @@ https://pixnethackathon2017.events.pixnet.net/
 
 「生活嚮導機器人」，旨在希望參賽者打造出各式各樣提供資訊的 bot 應用。我們歡迎參賽者發揮天馬行空的創意，透過結合 PIXNET 的開放資料，或是任何第三方資料。最後將設計出來的應用程式，串接上任何 bot 平台的 API，即成為參賽者們獨一無二的「生活嚮導機器人」。
 
-「生活嚮導機器人」共設有二獎項：
+### 獎項與評分方法
 
-1. 最佳產品力獎
-2. 最懂痞客邦獎
+<table class="tg">
+  <tr>
+    <th class="tg-s6z2">獎項</th>
+    <th class="tg-s6z2">評分方法</th>
+    <th class="tg-s6z2">獎金</th>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">最佳產品力獎</td>
+    <td class="tg-s6z2" rowspan="2">由評審評選，創新 50%、作品效益 30%、作品完整度 20%</td>
+    <td class="tg-s6z2">新台幣四萬元整</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">最懂痞客邦獎</td>
+    <td class="tg-s6z2">新台幣一萬元整</td>
+  </tr>
+</table>
 
 我們歡迎參賽者們朝著這兩個方向來設計自己的 bot 應用，如果您設計出的 bot 應用實在讓我們嘆為觀止，也有可能一次抱走兩個獎項哦！
 
@@ -27,23 +41,8 @@ https://pixnethackathon2017.events.pixnet.net/
 
  [資料說明](https://github.com/pixnet/2017-pixnet-hackathon-TaskOrientedBot/blob/master/opendata.md)
 
-## 評分標準
 
-- 創新 50%
-- 作品效益 30%
-- 作品完整度 20%
 
 ## 備註
 
 為確保比賽順暢，詳細規則主辦單位保留細節微調之權利。
-
-
-
-
-
-
-
-
-
-
-
