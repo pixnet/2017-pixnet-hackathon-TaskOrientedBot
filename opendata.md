@@ -22,7 +22,7 @@ PIXNET 為本次 hackathon 開放了 9 萬篇熱門文章，以及痞客邦網�
 - service （客服內容）
    - faq.json （痞客邦客服常見問題）
    - qa.json （2017年部分痞客邦所收到的的客服問題內文與問題回覆）
-   - tempalte.json （客服問題回覆模版）
+   - template.json （客服問題回覆模版）
 
 ### 熱門文章資料格式
 
