@@ -202,3 +202,4 @@ response = sing_up(event="hackathon", date="20170909")
 
 這是稍微複雜一點的功能，當 pixbot 收到「我有報名成功嗎？」時，API.AI 會將句子解析為「檢查報名成功」的 intent，並直接呼叫 webhook 進行報名成功與否的檢查。另外，如果想要將一些重要資料記錄下來的話，我們也需要一個資料庫來進行記錄。這些也就是上面那個架構圖的左半部囉。
 
+下篇我們會提到 facebook 中 button template 和 quick reply 的功能～
