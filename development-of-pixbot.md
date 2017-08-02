@@ -1,4 +1,4 @@
-# 黑客松 Pixbot 製作過程大公開：（一）pixbot 的誕生過程
+# 黑客松 Pixbot 製作過程大公開：（一）pixbot 的誕生
 
 
 這系列文章主要會提到：
@@ -152,11 +152,14 @@ payload = {
 
 ## The Whole Picture
 
+
 ![system architecture](https://storage.googleapis.com/2017-hackathon-data-download/hackathon-bot-img/architecture.png)
 
 前面我們提到的部份，主要集中在圖的右半部，也就是使用者傳送訊息給 bot，bot 傳送訊息給使用者。請注意我這裡的用詞「傳送訊息」而非「回覆訊息」。原因是在圖的右半部中，我們只能完成互相「傳送訊息」的功能。要讓 bot 理解訊息，然後「回覆訊息」，我們需要引入語意分析的功能。
 
+
 ### 自然語言處理（Natural Language Processing）
+
 
 > user:  哈囉 pixbot, 我想要報名 9/9 的黑客松
 
@@ -208,7 +211,7 @@ response = sing_up(event="hackathon", date="20170909")
 
 ### Button Template
 
-與[發送一般文字訊息](#發送訊息)給使用者略有不同，要傳送 button template，這裡的 payload 需改成以下格式：
+與[發送一般文字訊息](#傳送訊息)給使用者略有不同，要傳送 button template，這裡的 payload 需改成以下格式：
 
 ```python
 payload = {
@@ -314,7 +317,7 @@ if postback['type'] == "DEVELOPER_DEFINED_PAYLOAD_FOR_CHITCHATBOT":
     payload = chitchatbot_response(postback)
 ```
 
-
+這篇文章記錄的是 pixbot 的誕生過程，要讓 pixbot 理解語意，我們後面會提到 API.AI 的操作與設定。
 
 
 
