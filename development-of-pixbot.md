@@ -315,6 +315,7 @@ payload = {
 ```python
 if postback['type'] == "DEVELOPER_DEFINED_PAYLOAD_FOR_CHITCHATBOT":
     payload = chitchatbot_response(postback)
+    fb_message_sender（payload)
 ```
 
 這篇文章記錄的是 pixbot 的誕生過程，要讓 pixbot 理解語意，我們後面會提到 API.AI 的操作與設定。
