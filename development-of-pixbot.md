@@ -189,10 +189,13 @@ response = sing_up(event="hackathon", date="20170909")
 
 在今年黑客松的報名截止後，我們會讓 pixbot 具有查詢是否報名成功的功能。
 
->user: 我有報名成功嗎？
->pixbot: 請告訴我你的報名 email
->user: abc123@pixnet.tw
->pixbot: 查詢完成，恭喜您報名成功！
+> user: 我有報名成功嗎？
+
+> pixbot: 請告訴我你的報名 email
+
+> user: abc123@pixnet.tw
+
+> pixbot: 查詢完成，恭喜您報名成功！
 
 這是稍微複雜一點的功能，當 pixbot 收到「我有報名成功嗎？」時，API.AI 會將句子解析為「檢查報名成功」的 intent，並直接呼叫 webhook 進行報名成功與否的檢查。另外，如果想要將一些重要資料記錄下來的話，我們也需要一個資料庫來進行記錄。這些也就是上面那個架構圖的左半部囉。
 
@@ -269,8 +272,9 @@ if query.get('postback'):
 在我們的 pixbot 之中，當使用者按下「開始聊天」後，pixbot 會提供三個選項給使用者做選擇
 
 > user: 開始聊天
-> pixbot: 這次比賽共有兩大主題，你想知道哪一個呢？
 
+> pixbot: 這次比賽共有兩大主題，你想知道哪一個呢？ 
+>
 > quick_reply_1（智慧黑白講）
 > quick_reply_2（生活嚮導機器人）
 > quick_reply_3（比賽的規則是什麼）
