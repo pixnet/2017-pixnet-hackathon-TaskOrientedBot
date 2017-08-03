@@ -61,12 +61,13 @@ payload = {
 ```python
 # 這裡處理訊息以外的 payload
 # 例如 facebook 提供的按鈕範本
-if query.get('postback'):    p_type = query['postback']['payload']
+if query.get('postback'):    
+    p_type = query['postback']['payload']
     r['type'] = p_type
     return r
 ```
         
-當我們發現使用者回傳的訊息格式，存在著 `payload` 欄位時，我們將 `payload` 的形態，也就是 `DEVELOPER_DEFINED_PAYLOAD_FOR_START` 。這樣一來，我們就知道這代表使用者按下「開始聊天」的事件，便可以來做後續的處理囉。
+當我們發現使用者回傳的訊息格式，存在著 `payload` 欄位時，我們將 `payload` 的形態，也就是 `DEVELOPER_DEFINED_PAYLOAD_FOR_START` 記錄下來。這樣一來，我們就知道這代表使用者按下「開始聊天」的事件，便可以來做後續的處理囉。
 
 ### Quick Reply
 
