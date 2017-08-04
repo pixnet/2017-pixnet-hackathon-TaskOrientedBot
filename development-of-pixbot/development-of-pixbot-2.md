@@ -74,8 +74,9 @@ if query.get('postback'):
 在我們的 pixbot 之中，當使用者按下「開始聊天」後，pixbot 會提供三個選項給使用者做選擇
 
 > user: 開始聊天
+>
 > pixbot: 這次比賽共有兩大主題，你想知道哪一個呢？
-
+>
 > quick_reply_1（智慧黑白講）
 > quick_reply_2（生活嚮導機器人）
 > quick_reply_3（比賽的規則是什麼）
@@ -84,8 +85,8 @@ if query.get('postback'):
 
 ```json
 payload = {
-            'recipient': {'id': "USER_ID"},
-            'message':{
+            "recipient": {"id": "USER_ID"},
+            "message":{
                 "text":"這次比賽共有兩大主題，你想知道哪一個呢？",
                 "quick_replies":[
                   {
