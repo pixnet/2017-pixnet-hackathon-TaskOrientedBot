@@ -24,7 +24,7 @@ https://pixnethackathon2017.events.pixnet.net/
   </tr>
   <tr>
     <td class="tg-s6z2">最佳產品力獎</td>
-    <td class="tg-s6z2" rowspan="2">由評審評選，創新 50%、作品效益 30%、作品完整度 20%</td>
+    <td class="tg-s6z2" rowspan="2">由評審評選，創新（概念創新＋技術創新） 50%、作品效益（實用度） 30%、作品完整度 20%</td>
     <td class="tg-s6z2">新台幣四萬元整</td>
   </tr>
   <tr>
